@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Universidade Exemplo</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #c40000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo-uninove.svg/3840px-Logo-uninove.svg.png') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  border: none;
+  cursor: pointer;
+}
+
+.cursos {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">UNIVERSIDADE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Cursos</a>
+      <a href="#">Vestibular</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h1>Seu futuro começa aqui</h1>
+    <p>Inscreva-se no vestibular</p>
+    <button>Saiba mais</button>
+  </section>
+
+  <section class="cursos">
+    <h2>Nossos Cursos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Administração</h3>
+        <p>Formação completa para o mercado.</p>
+      </div>
+      <div class="card">
+        <h3>Engenharia</h3>
+        <p>Inovação e tecnologia.</p>
+      </div>
+      <div class="card">
+        <h3>Direito</h3>
+        <p>Excelência jurídica.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 </p>
+  </footer>
+
+</body>
+</html>
